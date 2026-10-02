@@ -1,0 +1,17 @@
+ # Variables de entorno y secretos (CIBERSEGURIDAD)
+.env
+*.key
+
+
+# Archivos temporales de compilación y editores
+*.[oa]
+
+
+# Registros de eventos y dependencias masivas
+*.log
+
+dir1/*
+!dir1/info.txt
+dir2/*.txt
+dir3/**/*.txt
+*.o
